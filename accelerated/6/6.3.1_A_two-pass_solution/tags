@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GUARD_Student_info	Student_info.hpp	2;"	d
+GUARD_grade_h	grade.hpp	2;"	d
+GUARD_median_h	median.hpp	2;"	d
+Student_info	Student_info.hpp	/^struct Student_info {$/;"	s
+compare	Student_info.cpp	/^bool compare(const Student_info& x, const Student_info& y)$/;"	f
+extract_fails	main.cpp	/^vector<Student_info> extract_fails(vector<Student_info>& students) {$/;"	f
+fgrade	grade.cpp	/^bool fgrade(const Student_info& s)$/;"	f
+final	Student_info.hpp	/^        double midterm, final;$/;"	m	struct:Student_info
+grade	grade.cpp	/^double grade(const Student_info& s)$/;"	f
+grade	grade.cpp	/^double grade(double midterm, double final, const std::vector<double>& hw)$/;"	f
+grade	grade.cpp	/^double grade(double midterm, double final, double homework)$/;"	f
+grade_aux	grade.cpp	/^double grade_aux(const Student_info& s)$/;"	f
+homework	Student_info.hpp	/^        std::vector<double> homework;$/;"	m	struct:Student_info
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+median	median.cpp	/^double median(vector<double> vec)$/;"	f
+midterm	Student_info.hpp	/^        double midterm, final;$/;"	m	struct:Student_info
+name	Student_info.hpp	/^        std::string name;$/;"	m	struct:Student_info
+pgrade	grade.cpp	/^bool pgrade(const Student_info& s)$/;"	f
+pgrade	main.cpp	/^bool pgrade(const Student_info& s)$/;"	f
+read	Student_info.cpp	/^std::istream& read(std::istream& is, Student_info& s)$/;"	f
+read_hw	Student_info.cpp	/^std::istream& read_hw(std::istream& in, std::vector<double>& hw)$/;"	f

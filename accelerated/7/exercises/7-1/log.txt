@@ -1,0 +1,71 @@
+g++     main.cpp   -o main
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from main.cpp:3:
+/usr/include/c++/5/bits/stl_algo.h: In instantiation of ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >; _Compare = __gnu_cxx::__ops::_Iter_less_iter]’:
+/usr/include/c++/5/bits/stl_algo.h:4698:18:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >]’
+main.cpp:23:46:   required from here
+/usr/include/c++/5/bits/stl_algo.h:1964:22: error: no match for ‘operator-’ (operand types are ‘std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >’ and ‘std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >’)
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from main.cpp:1:
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note: candidate: template<class _Iterator> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator-(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from main.cpp:3:
+/usr/include/c++/5/bits/stl_algo.h:1964:22: note:   ‘std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from main.cpp:1:
+/usr/include/c++/5/bits/stl_iterator.h:385:5: note: candidate: template<class _IteratorL, class _IteratorR> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:385:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from main.cpp:3:
+/usr/include/c++/5/bits/stl_algo.h:1964:22: note:   ‘std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from main.cpp:1:
+/usr/include/c++/5/bits/stl_iterator.h:923:5: note: candidate: template<class _Iterator, class _Container> typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator-(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:923:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from main.cpp:3:
+/usr/include/c++/5/bits/stl_algo.h:1964:22: note:   ‘std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from main.cpp:1:
+/usr/include/c++/5/bits/stl_iterator.h:916:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> typename __gnu_cxx::__normal_iterator<_IteratorL, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator-(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:916:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from main.cpp:3:
+/usr/include/c++/5/bits/stl_algo.h:1964:22: note:   ‘std::_Rb_tree_iterator<std::pair<const std::__cxx11::basic_string<char>, int> >’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+     std::__lg(__last - __first) * 2,
+                      ^
+<builtin>: recipe for target 'main' failed
+make: *** [main] Error 1

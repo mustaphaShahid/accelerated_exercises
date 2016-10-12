@@ -1,0 +1,27 @@
+# ninja log v5
+0	524	0	prog@exe/test.cpp.o	360d5ceaca531228
+0	580	0	prog@exe/prog.cpp.o	5b06344c3bf5ed1e
+580	660	0	prog	77feef0eb5383f42
+0	480	0	prog@exe/test.cpp.o	360d5ceaca531228
+480	577	0	prog	77feef0eb5383f42
+0	463	0	prog@exe/test.cpp.o	360d5ceaca531228
+463	572	0	prog	77feef0eb5383f42
+1	467	0	prog@exe/test.cpp.o	360d5ceaca531228
+467	551	0	prog	77feef0eb5383f42
+0	531	0	prog@exe/prog.cpp.o	5b06344c3bf5ed1e
+531	630	0	prog	77feef0eb5383f42
+0	516	0	prog@exe/prog.cpp.o	5b06344c3bf5ed1e
+516	648	0	prog	77feef0eb5383f42
+0	538	0	prog@exe/prog.cpp.o	5b06344c3bf5ed1e
+538	619	0	prog	77feef0eb5383f42
+0	519	0	prog@exe/prog.cpp.o	5b06344c3bf5ed1e
+519	645	0	prog	77feef0eb5383f42
+0	518	0	prog@exe/prog.cpp.o	5b06344c3bf5ed1e
+518	615	0	prog	77feef0eb5383f42
+0	468	0	prog@exe/test.cpp.o	360d5ceaca531228
+468	565	0	prog	77feef0eb5383f42
+0	474	0	prog@exe/test.cpp.o	360d5ceaca531228
+474	585	0	prog	77feef0eb5383f42
+0	358	0	build.ninja	fbf044c7e5605563
+0	251	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+251	373	0	prog	4eafcbffd9fe2b9c

@@ -1,0 +1,16 @@
+CXX=g++
+CXXFLAGS=-std=c++ -Wall -pedantic -g3
+
+all: prog
+
+prog: main.o
+	$(CC) $(CFLAGS) -o $@ $^
+	$(RM) *.o 
+
+main.o: main.cpp 
+
+test: prog
+	./prog
+
+clean:
+	$(RM) *.o prog

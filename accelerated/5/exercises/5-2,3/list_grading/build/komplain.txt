@@ -1,0 +1,45 @@
+[1/4] Compiling cpp object 'prog@exe/main.cpp.o'
+[2/4] Compiling cpp object 'prog@exe/grade.cpp.o'
+[3/4] Compiling cpp object 'prog@exe/Student_info.cpp.o'
+FAILED: c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/main.cpp.o' '-MF' 'prog@exe/main.cpp.o.d' -o 'prog@exe/main.cpp.o' -c ../main.cpp
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from ../main.cpp:1:
+/usr/include/c++/5/bits/stl_algo.h: In instantiation of ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = std::_List_iterator<Student_info>; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(const Student_info&, const Student_info&)>]’:
+/usr/include/c++/5/bits/stl_algo.h:4729:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = std::_List_iterator<Student_info>; _Compare = bool (*)(const Student_info&, const Student_info&)]’
+../main.cpp:40:55:   required from here
+/usr/include/c++/5/bits/stl_algo.h:1964:22: error: no match for ‘operator-’ (operand types are ‘std::_List_iterator<Student_info>’ and ‘std::_List_iterator<Student_info>’)
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/algorithm:61,
+                 from ../main.cpp:1:
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note: candidate: template<class _Iterator> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator-(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from ../main.cpp:1:
+/usr/include/c++/5/bits/stl_algo.h:1964:22: note:   ‘std::_List_iterator<Student_info>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/algorithm:61,
+                 from ../main.cpp:1:
+/usr/include/c++/5/bits/stl_iterator.h:385:5: note: candidate: template<class _IteratorL, class _IteratorR> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:385:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/5/algorithm:62:0,
+                 from ../main.cpp:1:
+/usr/include/c++/5/bits/stl_algo.h:1964:22: note:   ‘std::_List_iterator<Student_info>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+     std::__lg(__last - __first) * 2,
+                      ^
+In file included from /usr/include/c++/5/vector:65:0,
+                 from ../Student_info.hpp:6,
+                 from ../grade.hpp:4,
+                 from ../main.cpp:8:
+/usr/include/c++/5/bits/stl_bvector.h:208:3: note: candidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   operator-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:208:3: note:   no known conversion for argument 1 from ‘std::_List_iterator<Student_info>’ to ‘const std::_Bit_iterator_base&’
+ninja: build stopped: subcommand failed.

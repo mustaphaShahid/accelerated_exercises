@@ -1,0 +1,23 @@
+Build started at 2016-09-21T21:50:20.874780
+Python binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.33.0.dev1
+Source dir: /home/msr/research/c++/accelerated/7/exercises/7-6
+Build dir: /home/msr/research/c++/accelerated/7/exercises/7-6/build
+Build type: native build
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Project name: grammar
+Sanity testing cpp compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/msr/research/c++/accelerated/7/exercises/7-6/build/meson-private/sanitycheckcpp.cc -o /home/msr/research/c++/accelerated/7/exercises/7-6/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/msr/research/c++/accelerated/7/exercises/7-6/build/meson-private/sanitycheckcpp.exe
+Native cpp compiler: c++ (gcc 5.4.0-6ubuntu1)
+Build targets in project: 1

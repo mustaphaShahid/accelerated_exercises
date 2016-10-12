@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+comp	main.cpp	/^bool comp(const line& l1, const line& l2)$/;"	f
+line	main.cpp	/^struct line {$/;"	s	file:
+lineLeftSpace	main.cpp	/^string::size_type lineLeftSpace(const vector<line>& v_s)$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+makeline	main.cpp	/^line makeline(int tag, string str)$/;"	f
+makeline	main.cpp	/^line makeline(string str)$/;"	f
+setTags	main.cpp	/^vector<line> setTags(const line& l)$/;"	f
+str	main.cpp	/^        string str;$/;"	m	struct:line	file:
+tag	main.cpp	/^        string::size_type tag;$/;"	m	struct:line	file:
+toupper	main.cpp	/^string toupper(const string& str)$/;"	f

@@ -1,0 +1,13 @@
+Build started at 2016-09-20T22:17:20.299403
+Python binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.33.0.dev1
+Source dir: /home/msr/research/c++/accelerated/7/7.4.2_Reading_the_grammar,7.4.3_Generating_the_sentence,7.4.4_Selecting_a_random_element
+Build dir: /home/msr/research/c++/accelerated/7/7.4.2_Reading_the_grammar,7.4.3_Generating_the_sentence,7.4.4_Selecting_a_random_element/build
+Build type: native build
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Project name: grammar
+Native cpp compiler: c++ (gcc 5.4.0-6ubuntu1)
+Build targets in project: 1

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+find_urls	6.1.3_finding_URLs/main.cpp	/^vector<string> find_urls(const string& s)$/;"	f
+is_palindrome	main.cpp	/^bool is_palindrome(const string& s)$/;"	f
+main	6.1.1_Another_way_to_split/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	6.1.3_finding_URLs/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+not_space	6.1.1_Another_way_to_split/main.cpp	/^bool not_space(char c)$/;"	f
+not_url_char	6.1.3_finding_URLs/main.cpp	/^bool not_url_char(char c)$/;"	f
+space	6.1.1_Another_way_to_split/main.cpp	/^bool space(char c)$/;"	f
+split	6.1.1_Another_way_to_split/main.cpp	/^vector<string> split(const string& str)$/;"	f
+url_beg	6.1.3_finding_URLs/main.cpp	/^string::const_iterator url_beg(string::const_iterator b, string::const_iterator e)$/;"	f
+url_end	6.1.3_finding_URLs/main.cpp	/^string::const_iterator url_end(string::const_iterator b, string::const_iterator e)$/;"	f

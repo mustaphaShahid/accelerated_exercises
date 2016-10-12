@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/msr/research/c++/mesontut/build",
+    "command": "cc  '-Idemo@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-O0' '-g' '-MMD' '-MQ' 'demo@exe/main.c.o' '-MF' 'demo@exe/main.c.o.d' -o 'demo@exe/main.c.o' -c ../main.c",
+    "file": "../main.c"
+  }
+]

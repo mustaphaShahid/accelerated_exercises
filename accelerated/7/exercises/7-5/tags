@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Grammar	main.cpp	/^typedef map<string, Rule_collection> Grammar;$/;"	t	file:
+Rule	main.cpp	/^typedef vector<string> Rule;$/;"	t	file:
+Rule_collection	main.cpp	/^typedef vector<Rule> Rule_collection;$/;"	t	file:
+bracketed	main.cpp	/^bool bracketed(const string& s)$/;"	f
+gen_aux	main.cpp	/^void gen_aux(const Grammar& g, const string& word, list<string>& ret)$/;"	f
+gen_sentence	main.cpp	/^list<string> gen_sentence(const Grammar& g)$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+not_space	main.cpp	/^bool not_space(char c)$/;"	f
+nrand	main.cpp	/^int nrand(int n)$/;"	f
+read_grammar	main.cpp	/^Grammar read_grammar(istream& in)$/;"	f
+space	main.cpp	/^bool space(char c)$/;"	f
+split	main.cpp	/^vector<string> split(const string& str)$/;"	f

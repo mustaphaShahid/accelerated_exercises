@@ -1,0 +1,23 @@
+Build started at 2016-08-05T23:57:30.261286
+Python binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.33.0.dev1
+Source dir: /home/msr/research/c++/accelerated/5/exercises/5-2/testing
+Build dir: /home/msr/research/c++/accelerated/5/exercises/5-2/testing/build
+Build type: native build
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Project name: testing
+Sanity testing cpp compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/msr/research/c++/accelerated/5/exercises/5-2/testing/build/meson-private/sanitycheckcpp.cc -o /home/msr/research/c++/accelerated/5/exercises/5-2/testing/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/msr/research/c++/accelerated/5/exercises/5-2/testing/build/meson-private/sanitycheckcpp.exe
+Native cpp compiler: c++ (gcc 5.4.0-6ubuntu1)
+Build targets in project: 1

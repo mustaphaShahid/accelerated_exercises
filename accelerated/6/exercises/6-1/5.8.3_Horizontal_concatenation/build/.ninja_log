@@ -1,0 +1,21 @@
+# ninja log v5
+0	306	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+306	407	0	prog	7ad2d852d5181b07
+0	244	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+244	311	0	prog	7ad2d852d5181b07
+0	283	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+283	349	0	prog	7ad2d852d5181b07
+1	270	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+270	339	0	prog	7ad2d852d5181b07
+0	279	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+279	352	0	prog	7ad2d852d5181b07
+0	251	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+252	334	0	prog	7ad2d852d5181b07
+1	303	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+303	382	0	prog	7ad2d852d5181b07
+0	262	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+262	350	0	prog	7ad2d852d5181b07
+0	287	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+287	353	0	prog	7ad2d852d5181b07
+0	292	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+292	356	0	prog	7ad2d852d5181b07

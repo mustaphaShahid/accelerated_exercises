@@ -1,0 +1,11 @@
+int maxlen
+Student_info s;
+max(s.name.size(), maxlen);
+
+this won't compile coz maxlen and s.name aren't of sametype
+
+declare maxlen as: 
+        string::size_type maxlen;
+
+then you can run:
+        max(s.name.size(), maxlen);

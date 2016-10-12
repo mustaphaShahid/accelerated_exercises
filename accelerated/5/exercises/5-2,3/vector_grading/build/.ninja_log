@@ -1,0 +1,21 @@
+# ninja log v5
+0	356	0	prog@exe/median.cpp.o	42c7efa06aa1210e
+0	378	0	prog@exe/grade.cpp.o	fd712c953c8bd8bb
+1	393	0	prog@exe/Student_info.cpp.o	435fec047c1c1c4e
+0	529	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+529	601	0	prog	ff6fc84e51d54dc8
+0	286	0	prog@exe/Student_info.cpp.o	435fec047c1c1c4e
+286	419	0	prog	ff6fc84e51d54dc8
+0	260	0	prog@exe/Student_info.cpp.o	435fec047c1c1c4e
+261	605	0	prog	ff6fc84e51d54dc8
+1	438	0	prog@exe/median.cpp.o	42c7efa06aa1210e
+1	443	0	prog@exe/Student_info.cpp.o	435fec047c1c1c4e
+0	520	0	prog@exe/grade.cpp.o	fd712c953c8bd8bb
+0	591	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+591	680	0	prog	ff6fc84e51d54dc8
+1	378	0	prog@exe/Student_info.cpp.o	435fec047c1c1c4e
+1	430	0	prog@exe/grade.cpp.o	fd712c953c8bd8bb
+0	476	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+476	561	0	prog	ff6fc84e51d54dc8
+0	356	0	prog@exe/main.cpp.o	11d83dc3a2c29d20
+356	436	0	prog	ff6fc84e51d54dc8

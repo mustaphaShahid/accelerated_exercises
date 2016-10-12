@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "/home/msr/research/c++/accelerated/5/exercises/5-6/vector_grading/extract_push_resize/build",
+    "command": "c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/test.cpp.o' '-MF' 'prog@exe/test.cpp.o.d' -o 'prog@exe/test.cpp.o' -c ../test.cpp",
+    "file": "../test.cpp"
+  },
+  {
+    "directory": "/home/msr/research/c++/accelerated/5/exercises/5-6/vector_grading/extract_push_resize/build",
+    "command": "c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/grade.cpp.o' '-MF' 'prog@exe/grade.cpp.o.d' -o 'prog@exe/grade.cpp.o' -c ../grade.cpp",
+    "file": "../grade.cpp"
+  },
+  {
+    "directory": "/home/msr/research/c++/accelerated/5/exercises/5-6/vector_grading/extract_push_resize/build",
+    "command": "c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/median.cpp.o' '-MF' 'prog@exe/median.cpp.o.d' -o 'prog@exe/median.cpp.o' -c ../median.cpp",
+    "file": "../median.cpp"
+  },
+  {
+    "directory": "/home/msr/research/c++/accelerated/5/exercises/5-6/vector_grading/extract_push_resize/build",
+    "command": "c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/Student_info.cpp.o' '-MF' 'prog@exe/Student_info.cpp.o.d' -o 'prog@exe/Student_info.cpp.o' -c ../Student_info.cpp",
+    "file": "../Student_info.cpp"
+  }
+]

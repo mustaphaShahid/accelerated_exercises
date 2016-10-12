@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+find_urls	main.cpp	/^vector<string> find_urls(const string& s)$/;"	f
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+not_space	main.cpp	/^bool not_space(char c)$/;"	f
+not_url_char	main.cpp	/^bool not_url_char(char c)$/;"	f
+space	main.cpp	/^bool space(char c)$/;"	f
+split	main.cpp	/^vector<string> split(const string& str)$/;"	f
+url_beg	main.cpp	/^string::const_iterator url_beg(string::const_iterator b, string::const_iterator e)$/;"	f
+url_end	main.cpp	/^string::const_iterator url_end(string::const_iterator b, string::const_iterator e)$/;"	f
+xref	main.cpp	/^map<string, vector<int> > xref(ifstream& in, vector<string> find_words(const string&))$/;"	f
+xref	main.cpp	/^map<string, vector<int> > xref(istream& in, vector<string> find_words(const string&))$/;"	f

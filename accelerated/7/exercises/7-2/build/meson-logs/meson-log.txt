@@ -1,0 +1,13 @@
+Build started at 2016-09-02T21:33:15.269334
+Python binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.33.0.dev1
+Source dir: /home/msr/research/c++/accelerated/4/4.3_Putting_it_all_together
+Build dir: /home/msr/research/c++/accelerated/4/4.3_Putting_it_all_together/build
+Build type: native build
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Project name: grades
+Native cpp compiler: c++ (gcc 5.4.0-6ubuntu1)
+Build targets in project: 1

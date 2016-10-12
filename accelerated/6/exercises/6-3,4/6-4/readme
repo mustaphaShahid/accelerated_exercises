@@ -1,0 +1,5 @@
+in main.cpp we put in the back inserter
+in main2.cpp we simply populate anoter vector with the size of original with 0s and then copy withouth back inserter, ie orig.begin() is used
+
+the 1st method saves space however uses more time when the amount of elements needed is really high
+the 2nd method saves time however it potentially wastes space, (or even worse run out of space) coz you dont know previously how much space you needed (possibly)

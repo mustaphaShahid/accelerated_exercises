@@ -1,0 +1,20 @@
+CC=gcc
+CFLAGS=-std=c89 -Wall -pedantic -g3
+
+all: prog 
+
+prog: main.o employee.o gun.o soldier.o cook.o
+	$(CC) $(CFLAGS) -o $@ $^
+	$(RM) *.o models/*.o
+
+main.o: main.c employee.h gun.h
+employee.o: employee.c employee.h soldier.h cook.h
+gun.o: gun.c gun.h
+soldier.o: soldier.c soldier.h
+cook.o : cook.c cook.h	
+
+test: prog
+	./prog
+
+clean:
+	$(RM) *.o prog

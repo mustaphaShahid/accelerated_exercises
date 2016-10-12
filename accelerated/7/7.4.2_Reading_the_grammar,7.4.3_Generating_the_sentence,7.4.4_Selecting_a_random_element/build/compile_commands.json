@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/msr/research/c++/accelerated/7/7.4.2_Reading_the_grammar,7.4.3_Generating_the_sentence,7.4.4_Selecting_a_random_element/build",
+    "command": "c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/main.cpp.o' '-MF' 'prog@exe/main.cpp.o.d' -o 'prog@exe/main.cpp.o' -c ../main.cpp",
+    "file": "../main.cpp"
+  },
+  {
+    "directory": "/home/msr/research/c++/accelerated/7/7.4.2_Reading_the_grammar,7.4.3_Generating_the_sentence,7.4.4_Selecting_a_random_element/build",
+    "command": "c++  '-Iprog@exe' '-fdiagnostics-color=always' '-I..' '-I.' '-pipe' '-Wall' '-Winvalid-pch' '-Wnon-virtual-dtor' '-O0' '-g' '-MMD' '-MQ' 'prog@exe/prog.cpp.o' '-MF' 'prog@exe/prog.cpp.o.d' -o 'prog@exe/prog.cpp.o' -c ../prog.cpp",
+    "file": "../prog.cpp"
+  }
+]
